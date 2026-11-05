@@ -279,6 +279,34 @@ footer {
     margin-top: 30px;
 }
 
+/* ===== Mensagens de erro do formulário ===== */
+.erro {
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #b91c1c;
+}
+
+.erro:empty {
+    display: none;
+}
+
+.campo input.invalido,
+.campo select.invalido,
+.campo textarea.invalido {
+    border-color: #b91c1c;
+}
+
+body.tema-escuro .erro {
+    color: #f87171;
+}
+
+body.tema-escuro .campo input.invalido,
+body.tema-escuro .campo select.invalido,
+body.tema-escuro .campo textarea.invalido {
+    border-color: #f87171;
+}
+
 @media (max-width: 768px) {
     #posts, #right-side {
         width: 100%;
