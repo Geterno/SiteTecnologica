@@ -1,32 +1,33 @@
+
 # TecnoLógica
 
-Site sobre tecnologia, jogos e smartphones, feito como trabalho da disciplina de **Introdução à Programação Web** do curso de **Sistemas para Internet** da Universidade Estadual de Goiás (UEG), com orientação do professor Ricardo Bruno Osés de Oliveira.
+Site sobre tecnologia, jogos e smartphones, desenvolvido como trabalho da disciplina de **Introdução à Programação Web**, do curso de **Sistemas para Internet** da Universidade Estadual de Goiás (UEG), sob orientação do professor Ricardo Bruno Osés de Oliveira.
 
 ## Sobre o projeto
 
-A ideia era montar um site completo aplicando o que aprendemos em HTML, CSS e JavaScript. Escolhi o tema **Site de Notícias Tecnológicas**, uma das sugestões do professor, e criei o blog TecnoLógica, com posts sobre tecnologia em geral, jogos e smartphones.
+A proposta era desenvolver um site completo, aplicando os conhecimentos adquiridos em HTML, CSS e JavaScript. Escolhi o tema **Site de Notícias Tecnológicas**, uma das sugestões apresentadas pelo professor, e criei o blog TecnoLógica, com publicações sobre tecnologia em geral, jogos e smartphones.
 
-O ponto de partida foi um modelo de site sugerido em aula, que eu já tinha começado a adaptar. Para este trabalho, reescrevi boa parte do projeto: deixei a estrutura semântica, refiz o visual, atualizei todo o conteúdo e acrescentei a interatividade com JavaScript.
+O ponto de partida foi um modelo de site sugerido em aula, que eu já havia começado a adaptar. Para este trabalho, reestruturei boa parte do projeto: organizei o HTML com tags semânticas, reformulei o visual, atualizei os conteúdos e acrescentei funcionalidades interativas com JavaScript.
 
-## O que o site tem
+## Funcionalidades
 
-- **4 páginas** com navegação entre elas: Home, Jogos, Smartphones e Contato
-- **HTML5 semântico** (`header`, `nav`, `main`, `section`, `article`, `aside`, `footer`)
-- **Design responsivo**, que se adapta a computador, tablet e celular
-- **Tema claro e escuro**, com o botão lembrando a escolha da pessoa
-- **Formulário de contato** com validação em JavaScript e mensagens de erro na tela
-- **Menu hambúrguer** para telas pequenas
-- Posts com **links para fontes externas** reais; os textos são resumos escritos por mim
+- **4 páginas** com navegação entre elas: Home, Jogos, Smartphones e Contato.
+- **HTML5 semântico**, utilizando elementos como `header`, `nav`, `main`, `section`, `article`, `aside` e `footer`.
+- **Design responsivo**, adaptado para computadores, tablets e celulares.
+- **Tema claro e escuro**, com preferência salva para manter a escolha do usuário.
+- **Formulário de contato** com validação em JavaScript e mensagens de erro exibidas na tela.
+- **Menu hambúrguer** para dispositivos com telas pequenas.
+- **Publicações com links para fontes externas**, utilizando textos resumidos e escritos por mim.
 
-## Tecnologias
+## Tecnologias utilizadas
 
 - HTML5
-- CSS3 (com variáveis CSS para o sistema de cores e os dois temas)
-- JavaScript (sem bibliotecas)
+- CSS3 (variáveis CSS para gerenciamento de cores e temas).
+- JavaScript (sem utilização de bibliotecas externas).
 
 ## Estrutura do projeto
 
-```
+```text
 projeto_tecnologica/
 ├── index.html
 ├── jogos.html
@@ -40,26 +41,28 @@ projeto_tecnologica/
 └── README.md
 ```
 
-## Como rodar
+## Como executar o projeto
 
-Não precisa instalar nada. É só baixar ou clonar o repositório e abrir o `index.html` no navegador:
+Não é necessário instalar nenhuma ferramenta adicional para visualizar o site. Basta baixar ou clonar o repositório e abrir o arquivo `index.html` no navegador.
 
 ```bash
 git clone https://github.com/Gean-Eterno/NOME-DO-REPOSITORIO.git
 ```
 
-Se você usa o VS Code, a extensão **Live Server** deixa o teste mais prático.
+Para facilitar o desenvolvimento e os testes, também é possível utilizar o **Visual Studio Code** com a extensão **Live Server**.
 
 ## O que aprendi
 
-Esse trabalho me ajudou a entender na prática por que usar as tags semânticas, como organizar o CSS com variáveis para facilitar a troca de tema e como o JavaScript manipula a página de forma dinâmica. Também aprendi a organizar o projeto em pastas e a documentar o que foi feito.
+O desenvolvimento deste trabalho me ajudou a compreender, na prática, a importância das tags semânticas, a organização do CSS com variáveis para facilitar a manutenção dos estilos e a utilização do JavaScript para manipular elementos da página dinamicamente.
+
+Também adquiri experiência na organização de arquivos e pastas, na criação de layouts responsivos e na documentação de projetos utilizando Markdown.
 
 ## Autor
 
-**Gean** — estudante de Sistemas para Internet na UEG.
+**Gean** — Estudante de Sistemas para Internet na Universidade Estadual de Goiás (UEG).
 
-GitHub: [Gean-Eterno](https://github.com/Gean-Eterno)
+- GitHub: [Gean-Eterno](https://github.com/Gean-Eterno)
 
 ---
 
-*Projeto acadêmico, sem fins comerciais. As notícias e imagens têm caráter ilustrativo, e os links levam às fontes originais.*
+*Projeto acadêmico, sem fins comerciais. As notícias são resumos de fontes externas e as imagens têm caráter ilustrativo. Os respectivos direitos pertencem aos seus titulares.*
